@@ -11,7 +11,7 @@ function App() {
     <div>
     <Routes>
       <Route path="/Stakingcow" element={<Home />}/> {/*Ruta raiz*/}
-      <Route path="/somos" element={<Quienes />}/> {/*Ruta raiz*/}
+      <Route path="Stakingcow/somos" element={<Quienes />}/> {/*Ruta raiz*/}
     </Routes>
     </div>
     </>
