@@ -9,7 +9,7 @@ const Navbar = ()=>{
     <div className="elementos-navbar">
         <ul className="ul-navbar">
           <li className="li-navbar"><Link to="Stakingcow/soluciones"><h3>Soluciones</h3></Link></li>
-          <li className="li-navbar"><Link to="/Stakingcow/somos"><h3>Quienes somos</h3></Link></li>
+          <li className="li-navbar"><Link to="Stakingcow/somos"><h3>Quienes somos</h3></Link></li>
           <li className="li-navbar"><Link to="/Stakingcow/talento"><h3>Talentos</h3></Link></li>
         </ul>
     </div>
