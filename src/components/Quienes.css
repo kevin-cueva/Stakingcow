@@ -1,0 +1,63 @@
+@keyframes cart {
+    0% {margin-top: 100%; color:#FFFFFF30;}
+    100%{margin-top: 0%;}
+}
+
+/*Contenedor de las tarjetas*/
+.container-planes{
+  padding:2rem 1rem 2rem 1rem;
+  background-color: #96969650;
+  display: grid;
+    gap: 1rem;
+    grid-auto-flow: dense; /*Coloque elementos para llenar los agujeros en la cuadrícula*/
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(auto-fit, minmax(min(50%, 15rem), 1fr));
+
+
+}
+
+/*Para darle el estilo a cada carta*/
+.card{
+    min-height:60vh;
+    padding: 5px;
+    background-color: #131417;
+    border-radius: 5px;
+    border:1px solid white;
+
+    color:#FFFFFF;
+    font-size: 2rem;
+
+    animation-name: cart;
+    animation-duration: 1s;
+}@keyframes cart {
+    0% {margin-top: 100%; color:#FFFFFF30;}
+    100%{margin-top: 0%;}
+}
+
+/*Contenedor de las tarjetas*/
+.container-quienes{
+  padding:2rem 1rem 2rem 1rem;
+  background-color: #96969650;
+  display: grid;
+    gap: 1rem;
+    grid-auto-flow: dense; /*Coloque elementos para llenar los agujeros en la cuadrícula*/
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(auto-fit, minmax(min(50%, 15rem), 1fr));
+
+
+}
+
+/*Para darle el estilo a cada carta*/
+.card{
+    min-height:60vh;
+    padding: 5px;
+    background-color: #131417;
+    border-radius: 5px;
+    border:1px solid white;
+
+    color:#FFFFFF;
+    font-size: 2rem;
+
+    animation-name: cart;
+    animation-duration: 1s;
+}

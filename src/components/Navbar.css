@@ -1,0 +1,56 @@
+.container-navbar{
+  background-color:yellow;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+  color:white;
+
+}
+
+.ul-navbar{
+    align-content: flex-start;
+    display: flex;
+    flex-direction: row; /*acomoda todo de manera horizontal*/
+    justify-content: center; /*Organia la lisha hacia el centro*/
+    text-align: center; /*Organia la lisha hacia el centro*/
+    color:white;
+}
+
+.li-navbar{
+  padding-right: 3rem;
+  list-style: none; /*Elimina el punto negrp de la lista*/
+  font-size: 1rem;
+}.container-navbar{
+  background: rgb(9,67,161);
+background-image: background: -webkit-linear-gradient(left, rgba(9,67,161,1) 0%, rgba(0,0,0,1) 0%, rgba(230,208,50,1) 0%, rgba(187,222,11,1) 100%, rgba(27,96,207,1) 100%);
+background-image: background: -o-linear-gradient(left, rgba(9,67,161,1) 0%, rgba(0,0,0,1) 0%, rgba(230,208,50,1) 0%, rgba(187,222,11,1) 100%, rgba(27,96,207,1) 100%);
+background-image: background: linear-gradient(to right, rgba(9,67,161,1) 0%, rgba(0,0,0,1) 0%, rgba(230,208,50,1) 0%, rgba(187,222,11,1) 100%, rgba(27,96,207,1) 100%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+  color:white;
+
+}
+
+.ul-navbar{
+    align-content: flex-start;
+    display: flex;
+    flex-direction: row; /*acomoda todo de manera horizontal*/
+    justify-content: center; /*Organia la lisha hacia el centro*/
+    text-align: center; /*Organia la lisha hacia el centro*/
+    color:white;
+}
+
+.li-navbar{
+  padding-right: 3rem;
+  list-style: none; /*Elimina el punto negrp de la lista*/
+  font-size: 1rem;
+  text-decoration:none;
+  color:white;
+}
+.nombre-empresa{
+  text-decoration:none;
+  color:white;
+}
