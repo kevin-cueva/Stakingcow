@@ -6,15 +6,12 @@ import './Quienes.css';
     {'nombre':'¿Quiénes Somos?',
      'descripcion':'Somos una empresa cooperativa que vincula dos tipos de negocios, el mercado bovino y del NFT la combinación entre estos dos mercados crea una innovación de un nuevo modelo de negocios',
     },
-     {'nombre':'Intermedio',
-      'descripcion':'descripcion del plan Intermedio',
-      'valor':'10 $'},
-     {'nombre':'Premiun',
-      'descripcion':'descripcion del plan Premiun',
-      'valor':'15 $'},
-     {'nombre':'Empresarial',
-      'descripcion':'descripcion del plan Empresarial',
-      'valor':'A convenir $'},
+     {'nombre':'Misión',
+      'descripcion':'garantizar calidad y precio de nuestro producto mediante técnicas agrícolas que permitan el sumo cuidado de los bienes a comercializar. implementar contratos de servicios justos hacia los inversionistas.',
+    },
+     {'nombre':'Visión',
+      'descripcion':'ampliar la asociación de los campesinos hacia todo el territorio Colombiano y posicionar la marca entre los más rentable del país',
+     },
   ]
 const Quienes =()=>{
   return(
